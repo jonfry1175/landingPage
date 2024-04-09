@@ -32,3 +32,9 @@
   height: 220px;
 }
 
+@media screen and (max-width: 992px) {
+ .services {
+  padding-top: 50px;
+ }
+}
+
