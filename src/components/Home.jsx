@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-const Hero = () => {
+const Home = () => {
   return (
-    <div className="hero min-vh-100 w-100">
+    <div className="home min-vh-100 w-100" id="home">
       <Container>
         <Row>
           <Col className="text-center text-white fs-1">
@@ -16,4 +16,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Home;

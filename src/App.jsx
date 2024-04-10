@@ -1,10 +1,10 @@
 import React from "react";
-import { Footer, Gallery, Hero, NavBarCom, Service, Faq } from "./components";
+import { Footer, Gallery, Home, NavBarCom, Service, Faq } from "./components";
 
 function App() {
   return (
     <div>
-      <Hero />
+      <Home />
       {/* content */}
        <NavBarCom />
       <Gallery />

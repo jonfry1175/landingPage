@@ -2,7 +2,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-.hero {
+.home {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) ,url('../src/assets/img/hero/hero.jpg');
   background-size: cover;
   background-position: center;
@@ -10,7 +10,7 @@
   padding-top: 100px;
 }
 
-.hero h1 {
+.home h1 {
   font-size: 50px;
   margin-bottom: 10px;
   font-weight: bold;
@@ -24,13 +24,43 @@
 }
 
 .navbar.color-active {
-  background-color: black;
+  background-color: #343a40;
   transform: scaleY(1);
 }
 
 .gallery img {
   height: 220px;
 }
+
+.faq {
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+.faq .accordion {
+  --bs-accordion-bg: #0000000f;
+
+}
+
+.faq .accordion-button:focus {
+  box-shadow: none;
+}
+
+.faq .accordion-item .accordion-header {
+  line-height: 1.5;
+}
+
+.footer {
+  background-color: #343a40;
+}
+
+
+/* footer row 2nd/footer di row yang kedua  */
+.footer .row:nth-child(2) {
+  padding-top: 50px;
+}
+
+
 
 @media screen and (max-width: 992px) {
  .services {
